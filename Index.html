@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Household Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">My Household Store</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <!-- Add other links like About, Contact if needed -->
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <a href="checkout.html">
+                    🛒 <span id="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h2>Welcome to Your Cozy Corner</h2>
+            <p>Find delightful items to make your house a home.</p>
+            <a href="shop.html" class="btn">Shop Now</a>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Items</h2>
+            <div id="featured-product-list" class="product-grid">
+                <!-- Featured products will be loaded here by JavaScript -->
+                 <p>Loading featured products...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Your Household Shop. All rights reserved.</p>
+            <!-- Add social links or other footer content -->
+        </div>
+    </footer>
+
+    <!-- Load Product Data & Main Script -->
+    <script src="js/products.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
